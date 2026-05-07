@@ -1,0 +1,44 @@
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+
+# Local agent and design tooling
+.agent/
+.agents/
+.ecc-design/
+skills-lock.json
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Secrets
+.env
+*.env
+!.env.example
+
+# Generated ML artifacts
+ml-engine/data/
+ml-engine/models/
+
+# Go build outputs
+vpn-core/vpn-core-proxy
+*.exe
+*.out
+*.test
+
+# Presentation and non-code artifacts
+docs/
+*.pptx
+*.pdf
+create_mvp_short_presentation.py
+generate_mvp_presentation.py
+inspect_pptx.py
+презентации и глоссарии  /
